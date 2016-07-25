@@ -1,0 +1,19 @@
+begin coal;
+  nstaxa = 8;
+  intra yes;
+  gene tree file = t8all1;
+  species tree file = Smyspeciestreeeight_Sym;
+  theta = 2;
+ ngtaxa  1 1 1 1 1 1 1 1; 
+  taxa names = A B C D E F G H ;
+ 
+  blstyle none;
+ 
+  outfile = myout / probs histories gtopo formulas;
+ 
+  ngtrees  70000;
+  nstrees 1;
+  seed1 = 63155
+  seed2 = 3952
+ 
+end;
